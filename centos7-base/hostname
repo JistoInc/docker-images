@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -z "$JISTOHOSTNAME" ]; then
+	cat /etc/hostname
+else
+	echo $JISTOHOSTNAME
+fi
